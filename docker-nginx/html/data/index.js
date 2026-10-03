@@ -2,7 +2,7 @@ const SearchLimit = 100
 
 
 async function fetchUserData() {
-  const url = 'http://localhost:8000/ReturnJSONData?limit=100';
+  const url = 'http://0.0.0.0:8000/ReturnJSONData?limit=100';
   
   try {
     const response = await fetch(url);
